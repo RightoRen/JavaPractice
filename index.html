@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Carousel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <section class="wrapper">
+        <h2 class="hidden">Student Portfolio Carousel</h2>
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+            <li class="card">
+                <!-- draggable="false" means it won't drag when dragging -->
+                <div class="img"><img src="./img/img-1.jpg" alt="girl" draggable="false"></div>
+                <h2>Blanche Pearson</h2>
+                <span>Sales Manager</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./img/img-2.jpg" alt="girl" draggable="false"></div>
+                <h2>Joe Pearson</h2>
+                <span>Web Developer</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./img/img-3.jpg" alt="girl" draggable="false"></div>
+                <h2>Lariach Pearson</h2>
+                <span>Freelancer</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./img/img-4.jpg" alt="girl" draggable="false"></div>
+                <h2>Kristina Pearson</h2>
+                <span>Bank Manager</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./img/img-5.jpg" alt="girl" draggable="false"></div>
+                <h2>Donald Pearson</h2>
+                <span>App Manager</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./img/img-6.jpg" alt="girl" draggable="false"></div>
+                <h2>Blanche Pearson</h2>
+                <span>Sales Manager</span>
+            </li>
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+    </section>
+    <!-- Defer tells the script to wait until the page is done parsing before executing the script -->
+    <script src="./js/main.js" defer></script>
+</body>
+</html>
